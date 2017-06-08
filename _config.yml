@@ -1,0 +1,39 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-gist
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+excerpt_separator: <!--more-->
+
+# Setup
+title:            Manaday Mavani
+#tagline:          'A Jekyll theme'
+description:      'Software Developer - JavaScript, MEAN Stack'
+#url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Manaday Mavani'
+  url:            manadaym.github.io
+  email:          'm.k.mavani@gmail.com'
+  github:         'https://github.com/manadaym'
+  facebook:       'http://www.facebook.com/manaday.mavani'
+  twitter:        'https://twitter.com/manadaym'
+  googleplus:     ''
+  linkedin:       'https://www.linkedin.com/in/manadaymavani'
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/manadaym/manadaym.github.io
