@@ -3,7 +3,7 @@ layout: post
 title: Twelve-Factor App Notes
 ---
 
-I found a new terminology or a methodology called Twelve Factor App while reading an article about [The Process Module of Node.js](https://blog.risingstack.com/mastering-the-node-js-core-modules-the-process-module/). This post is a selfnote on the same. Throughtout this post TFA is used as an acronym for Twelve-Factor App.
+I found a new terminology or a methodology called Twelve Factor App while reading an article about [The Process Module of Node.js](https://blog.risingstack.com/mastering-the-node-js-core-modules-the-process-module/). This post is a selfnote on the same.
 
 <!--more-->
 
