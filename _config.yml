@@ -2,6 +2,9 @@
 markdown:         kramdown
 highlighter:      rouge
 
+plugins:
+  - jekyll-seo-tag
+
 gems:
   - jekyll-paginate
   - jekyll-feed
