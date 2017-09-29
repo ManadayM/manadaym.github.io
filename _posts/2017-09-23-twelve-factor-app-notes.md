@@ -99,7 +99,6 @@ Maximize robustness with fast startup and graceful shutdown
 * Web process can achieve graceful shutdown by ceasing to listen on the service port, allowing any current requests to finish, and then exit.
 * Worker process aheives graceful shutdown by moving the current job to the work queue.
 
-
 #### Dev/prod parity
 
 Keep development, staging, and production as similar as possible
