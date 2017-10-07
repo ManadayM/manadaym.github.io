@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-![that's me!](public/images/profile_bw.JPG)
+![that's me!]({{ site.baseurl }}public/images/profile_bw.JPG)
