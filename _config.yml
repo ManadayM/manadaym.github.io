@@ -21,7 +21,7 @@ title:            Manaday Mavani
 #tagline:          'A Jekyll theme'
 description:      'Software Developer - JavaScript, MEAN Stack'
 #url:              http://hyde.getpoole.com
-baseurl:          https://manadaym.github.io/
+baseurl:          ""
 
 author:
   name:           'Manaday Mavani'
