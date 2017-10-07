@@ -23,9 +23,14 @@ July 2010 brought another great opportunity to me from Investis and I just grabb
 
 #### Year 2016-Present
 
-My employer tasked me with another new project from scratch but this time it was for Web and not mobile apps! Yes, the new turning point. I was supposed to learn and implement AngularJS for the next big project - [MYINVETIS v5](https://dashboard.myinvestis.com). I'm enjoying the drastically changed Web Development stacks these days - credit goes to jQuery, BackboneJS, AngularJS and the most important one NodeJS.
+My employer tasked me with another new project from scratch but this time it was for Web and not mobile apps! Yes, the new turning point. I was supposed to learn and implement AngularJS for the next big project - [MYINVETIS v5](https://dashboard.myinvestis.com). I'm enjoying this age's drastically changing Web Development stacks - credit goes to jQuery, BackboneJS, AngularJS and the NodeJS.
 
-Personally, I kept on learning the full stack web dev - the MEAN Stack. I delivered 2 good and mid sized MEAN stack based projects as a freelancer in my free time.
+#### I do these days:
+* Freelance MEAN Stack Projects in free-time
+* Learning Salesforce
+* Learning ES6
 
+#### I want to learn:
+So many things... *React*, *Vue.js*, and *IoT*. The list is evovling.
 
 **Enough said! Have questions? Want to know more? I'm available on all popular social and professional channels. Just nudge me!** :)
