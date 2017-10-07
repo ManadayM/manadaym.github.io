@@ -5,7 +5,7 @@ title: About me
 
 ![that's me!]({{ site.baseurl }}public/images/profile_bw.JPG)
 
-I'm **Manaday** (First name) **Mavani** (Last name), currently living and working as a Tech Lead at [Investis](http://www.investis.com/) in the big little city Vadodara, India.
+I'm **Manaday** (First name) **Mavani** (Last name), currently living and working as a Tech Lead at [Investis](http://www.investis.com/) in the BigLil City Vadodara, India.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5d4XTiUXfdQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -15,13 +15,13 @@ Computer used to be a luxury in India in the early 2000 and did not get chance t
 
 #### Year 2010
 
-By January 2010, I successfully completed my 5 semsters with average first class grade. I learnt so many programming languages and technologies but only liked .NET and PHP those days. I joined Nomadic Solutions, a small company in online Mobile and DTH recharge business, as a trainee .NET Developer. I with my other 2 collagues developed a web portal for online recharge from the scratch. I learnt so many new things in ASP.Net and SQL server which I never even imagined during the college days. By now you'd have guessed Indian education system. :(
+By January 2010, I successfully completed my 5 semsters with average first class grade. I learnt so many programming languages and technologies but only liked .NET and PHP those days. I joined Nomadic Solutions, a small company in online Mobile and DTH recharge business, as a trainee .NET Developer. I with my other 2 collagues developed a web portal for online recharge from the scratch. I learnt so many new things in ASP.Net and SQL server which I never even imagined during the college days.
 
 July 2010 brought another great opportunity to me from Investis and I just grabbed it. Joined Investis as a .NET developer but in few months I was asked to start exploring Apps Development. That was the end of .NET journey and beggining of the new journey in Apps Development. Again, learnt many things and executed 3 succesful mobile apps as a product for Investis.
 
 #### Year 2016-Present
 
-My employer tasked me with another new project from scratch but this time it was for Web and not mobile apps! Yes, the new turning point. I was supposed to learn and implement AngularJS for the next big project - [MYINVETIS v5](https://dashboard.myinvestis.com). I'm enjoying the drastically changed the Web Development stacks these days - credit goes to jQuery, BackboneJS, AngularJS and the most important one NodeJS.
+My employer tasked me with another new project from scratch but this time it was for Web and not mobile apps! Yes, the new turning point. I was supposed to learn and implement AngularJS for the next big project - [MYINVETIS v5](https://dashboard.myinvestis.com). I'm enjoying the drastically changed Web Development stacks these days - credit goes to jQuery, BackboneJS, AngularJS and the most important one NodeJS.
 
 Personally, I kept on learning the full stack web dev - the MEAN Stack. I delivered 2 good and mid sized MEAN stack based projects as a freelancer in my free time.
 
