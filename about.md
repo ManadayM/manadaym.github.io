@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-![that's me!]({{ site.baseurl }}public/images/profile_bw.JPG)
+![that's me!]({{ site.url }}public/images/profile_bw.JPG)
 
 I'm **Manaday** (First name) **Mavani** (Last name), currently living and working as a Tech Lead at [Investis](http://www.investis.com/) in the BigLil City Vadodara, India.
 
