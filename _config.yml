@@ -20,7 +20,7 @@ excerpt_separator: <!--more-->
 title:            Manaday Mavani
 #tagline:          'A Jekyll theme'
 description:      'Software Developer - JavaScript, MEAN Stack'
-url:              https://manadaym.github.io
+url:              https://manadaym.github.io/
 baseurl:          ""
 
 author:
