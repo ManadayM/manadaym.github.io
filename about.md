@@ -19,6 +19,8 @@ By January 2010, I successfully completed my 5 semsters with average first class
 
 July 2010 brought another great opportunity to me from Investis and I just grabbed it. Joined Investis as a .NET developer but in few months I was asked to start exploring Apps Development. That was the end of .NET journey and beggining of the new journey in Apps Development. Again, learnt many things and executed 3 succesful mobile apps as a product for Investis.
 
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F100001536031342%2Fposts%2F449934961734368%2F&width=500" width="500" height="592" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
 #### Year 2016-Present
 
 My employer tasked me with another new project from scratch but this time it was for Web and not mobile apps! Yes, the new turning point. I was supposed to learn and implement AngularJS for the next big project - [MYINVETIS v5](https://dashboard.myinvestis.com). I'm enjoying the drastically changed Web Development stacks these days - credit goes to jQuery, BackboneJS, AngularJS and the most important one NodeJS.
