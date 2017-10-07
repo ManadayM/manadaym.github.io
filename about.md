@@ -5,7 +5,7 @@ title: About me
 
 ![that's me!]({{ site.baseurl }}public/images/profile_bw.JPG)
 
-I'm *Manaday* (First name) *Mavani* (Last name), currently living and working as a Tech Lead at [Investis](http://www.investis.com/) in the big little city Vadodara, India.
+I'm **Manaday** (First name) **Mavani** (Last name), currently living and working as a Tech Lead at [Investis](http://www.investis.com/) in the big little city Vadodara, India.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5d4XTiUXfdQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -26,4 +26,4 @@ My employer tasked me with another new project from scratch but this time it was
 Personally, I kept on learning the full stack web dev - the MEAN Stack. I delivered 2 good and mid sized MEAN stack based projects as a freelancer in my free time.
 
 
-*Enough said! Have questions? Want to know more? I'm available on all popular social and professional channels. Just nudge me!* :)
+**Enough said! Have questions? Want to know more? I'm available on all popular social and professional channels. Just nudge me!** :)
