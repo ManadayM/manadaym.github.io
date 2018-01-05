@@ -201,6 +201,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-paginate
+  jekyll-seo-tag
   pygments.rb
   redcarpet
 
