@@ -12,7 +12,7 @@ We decided to take this process to the Staging environment. However, this time t
 
 A little bit Googling brought me two options for the problem.
 
-1. [Publish Over SS](https://wiki.jenkins.io/display/JENKINS/Publish+Over+SSH+Plugin)
+1. [Publish Over SSH](https://wiki.jenkins.io/display/JENKINS/Publish+Over+SSH+Plugin)
 2. [Master Slave concept](https://wiki.jenkins.io/display/JENKINS/Distributed+builds)
 
 I tried both the ways and faced different set of problems. This document will cover how I achieved the goal using first approach.
