@@ -1,7 +1,10 @@
-# 2018 - A new notebook to write a better story
+---
+layout: post
+title: 2018 - A new notebook to write a better story
+---
 
 Well the credit for the title totally goes to this [motivational video](https://www.facebook.com/gaurgopald/videos/1073174056156311/) on Facebook. The video has great short message that life has given us a blank notebook in the form of year 2018. Go use it, the best way!
-
+<!--more-->
 I had enough of Apps Dev stuff in 2015. I made a resolution in Dec'15 itself for the 2016 - Become a better developer, learn AngularJS, Node.js, Clear MongoDB certification and Brush up HTML & CSS. This doesn't mean I was not learning much before that. IMO resolutions help you to set your vision and goals. If you achieve them, you get satisfaction. If you don't achieve them, you will at least have guilt in your heart for not standing by even to your personal commitments. That guilt factor would increase the probability of fulfilling those goals.
 
 The resolution strategy to learn something new, something specific worked for me. Although, I am flexible enough to add something new to the resolutions list, if required. That flexibility helped me to remove the WordPress development and add Gulp.js and Jenkins to the learning resolutions list in 2017.
