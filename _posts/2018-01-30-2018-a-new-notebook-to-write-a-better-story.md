@@ -59,81 +59,82 @@ Vuejs is a framework to develop Single Page Applications. IMO, Vuejs will surpas
 
 Materials:
 
-- Vuejs 2 tutorial by The Net Ninja
-- Vuex tutorial by The Net Ninja
-- Awesome Vue - A curated list of awesome things related to Vue.js
+- [Vuejs 2 tutorial by The Net Ninja](https://www.youtube.com/watch?v=5LYrN_cAJoA&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa)
+- [Vuex tutorial by The Net Ninja](https://www.youtube.com/watch?v=BGAu__J4xoc&list=PL4cUxeGkcC9i371QO_Rtkl26MwtiJ30P2)
+- [Awesome Vue - A curated list of awesome things related to Vue.js](https://github.com/vuejs/awesome-vue)
 
 **Angular**
 Angular and AngularJS are two different worlds. Angular is new framework by Google to develop Single Page Applications. The framework requires you to learn TypeScript to work with. If we ignore the Github star ratings then Angular is another most popular framework after React. The Angular provides full fledged framework that includes routing, templating, HTTP, Forms just everything you require to develop a scalable web app.
 
 Materials:
-- QuickStart Guide by Angular
-- Angular 5 tutorial by Codevolution
+- [QuickStart Guide by Angular](https://angular.io/guide/quickstart)
+- [Angular 5 tutorial by Codevolution](https://www.youtube.com/watch?v=0eWrpsCLMJQ&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ)
 
 #### **Task Runners and Application Bundlers**
 Projects developed using front-end technologies like Angular, React, Vuejs etc requires some kind of task automation and bundling solution. There come Gulp, Webpack or Parcel into the picture. For the easy start, I would recommend to learn Gulp first.
 
-**Gulp**
-Gulp is task runner that helps you to automate your repetitive taks like saas to css, file concatanation, minification, uglification, source map generation, etc. Including Gulp + Browsersync in your saas development workflow will enable you to get instant style changes inside browsers.
+**[Gulp](https://gulpjs.com/)**
+Gulp is task runner that helps you to automate your repetitive taks like saas to css, file concatanation, minification, uglification, source map generation, etc. Including [Gulp + Browsersync](https://browsersync.io/docs/gulp) in your saas development workflow will enable you to get instant style changes inside browsers.
 
-**Webpack**
+**[Webpack](https://webpack.js.org/)**
 Webpack is a module bundler that scans through your dependency graph and generate a single bundler file. Webpack is most popular amongst React developers. I'm a bit inexperienced on this topic right now.
 
-**Parcel**
+**[Parcel](https://parceljs.org/)**
 Parcel is also a web application bundler. It is relatively new entrant in the market but looks quite promising and may surpass popularity of webpack very soon.
 
 Materials:
-- Gulp.js Crash Course
-- Webpack Crash Course
-- Getting started with Parcel
+- [Gulp.js Crash Course](https://www.youtube.com/watch?v=1rw9MfIleEg)
+- [Webpack Crash Course](https://www.youtube.com/watch?v=lziuNMk_8eQ)
+- [Getting started with Parcel](https://www.youtube.com/watch?v=41fyV2n4U68)
 
 #### **Server Technologies**
 **Node.js**
-Node.js is simply JavaScript on server side technology. In fact, it is very easy to get up and running with Node.js. Node.js is widely adopted technology by top most companies like Netflix, Uber, PayPal, Ebay and Microsoft on a global scale.
+Node.js is simply JavaScript on server side technology. In fact, it is very easy to get up and running with Node.js. Node.js is [widely adopted technology by top most companies](https://medium.com/@pedchenko/top-5-companies-using-nodejs-in-production-9c9e0df4e8ab) like Netflix, Uber, PayPal, Ebay and Microsoft on a global scale.
 
 Materials:
-- NodeSchool.io
-- Awesome Nodejs
-- The Node Way
+- [NodeSchool.io](https://nodeschool.io/)
+- [Awesome Nodejs](https://graphqlweekly.com/)
+- [The Node Way](https://tutorialzine.com/2017/10/getting-started-with-graphql)
 
-**GraphQL**
-This is considered to be a next big thing after REST APIs. GraphQL is a query language developed by Facebook. GraphQL can be thought of as specification only. There are GraphQL clients which strictly adheres to the GraphQL specification and provides tools for different frameworks and technology. GraphQL provides a single endpoint to query data in contrast to REST API where you're supposed to write N number of endpoints for your N number of permutations and combinations for your data requirement on frontend side. There are two popular solutions out there Relay by Facebook and Apollo GraphQL. But before diving into any of them one should understand the specification in general.
+**[GraphQL](http://graphql.org/)**
+This is considered to be a next big thing after REST APIs. GraphQL is a query language developed by Facebook. GraphQL can be thought of as specification only. There are GraphQL clients which strictly adheres to the GraphQL specification and provides tools for different frameworks and technology. GraphQL provides a single endpoint to query data in contrast to REST API where you're supposed to write N number of endpoints for your N number of permutations and combinations for your data requirement on frontend side. There are two popular solutions out there [Relay by Facebook](https://facebook.github.io/relay/) and [Apollo GraphQL](https://www.apollographql.com/). But before diving into any of them one should understand the specification in general.
 
 Materials:
-- HowToGraphQL
-- GraphQL Weekly
-- Getting started with GraphQL by Tutorialzine
+- [HowToGraphQL](https://www.howtographql.com/)
+- [GraphQL Weekly](https://graphqlweekly.com/)
+- [Getting started with GraphQL by Tutorialzine](https://tutorialzine.com/2017/10/getting-started-with-graphql)
 
 #### **Databases**
-No-SQL databases are in top demand. The flexibility to horizontally scale them makes No-SQL database a good fit for big data. Pick MongoDB or RethinkDB if you're just starting up.
+No-SQL databases are in top demand. The flexibility to horizontally scale them makes No-SQL database a good fit for big data. Pick [MongoDB](https://www.mongodb.com/) or [RethinkDB](https://www.rethinkdb.com/) if you're just starting up.
 
 You can also explore Redis and RabittMQ. Redis can be used as a caching store, message broker or in-memory database, while RabittMQ is a message broker only.
 
 Materials:
-- Getting started with MongoDB
-- MongoDB University
+- [Getting started with MongoDB](https://resources.mongodb.com/getting-started-with-mongodb)
+- [MongoDB University](https://university.mongodb.com/)
 
 #### **Cloud Platforms & Services**
 Cloud is almost everywhere now. Companies are moving toward cloud solution at very fast pace. Learning and clearning certification exams by popular cloud platforms like AWS, Google Cloud, and Microsoft Azure would definitely a career booster.
 
-If you want to start with a small step then I would recommend to learn how you can spin up your own server on Digital Ocean. You can not compare it with AWS services but it has got all that a developer needs to learn.
+If you want to start with a small step then I would recommend to learn how you can spin up your own server on [Digital Ocean](https://www.digitalocean.com/). You can not compare it with AWS services but it has got all that a developer needs to learn.
 
-Elastic Stack is another great stuff to learn. It provides a cluster of tools that you can use to gather data from multiple sources and then perform search, analyze and visualize them in real-time.
+[Elastic Stack](https://www.elastic.co/products) is another great stuff to learn. It provides a cluster of tools that you can use to gather data from multiple sources and then perform search, analyze and visualize them in real-time.
 
-Apache Kafka is another big platform that you can explore. Kafka was developed by LinkedIn as a data streaming platform and later it was open sourced. The platform is so powerful that it can process/transform 100 Megabytes of data per second. Imagine you're getting tons of data from multilple sources and you're required to process/transform that before storing into your system. This is where Kafka comes into the picture.
+[Apache Kafka](https://kafka.apache.org/) is another big platform that you can explore. Kafka was developed by LinkedIn as a data streaming platform and later it was open sourced. The platform is so powerful that it can process/transform 100 Megabytes of data per second. Imagine you're getting tons of data from multilple sources and you're required to process/transform that before storing into your system. This is where Kafka comes into the picture.
 
 Materials:
-- AWS Certified Developer Associate 2018 (Paid course on Udemy)
+- [AWS Certified Developer Associate 2018](https://www.udemy.com/aws-certified-developer-associate/) (Paid course on Udemy)
 
 #### **DevOps**
-There is no clear definition for DevOps. As for every next company, it means something specific. But in a simple words DevOps is a process to fill the gap between software developers and operations teams to increase the software delivery rate. Although, the role of DevOps engineers varies, there are two common activites which almost all DevOps person do on daily basis are Automation and Continuous Integration.
+There is no clear definition for DevOps. As for every next company, it means something specific. But in a simple words DevOps is a process to fill the gap between software developers and operations teams to increase the software delivery rate. Although, the role of DevOps engineers varies, there are two common activites which almost all DevOps person do on daily basis are **Automation** and **Continuous Integration**.
 
-You can start with DevOps by learning to automate and implementing CI/CD for your projects. Jenkins is a great tool to start with that will allow you to implement CI/CD for nearly any technology stacks. You can also learn Powershell (Windows) or Shell Scripting along with Jenkins. Since learning to write efficent and secure scripts is must for DevOps guys.
+You can start with DevOps by learning to automate and implementing CI/CD for your projects. [Jenkins](https://jenkins.io/) is a great tool to start with that will allow you to implement CI/CD for nearly any technology stacks. You can also learn Powershell (Windows) or Shell Scripting along with Jenkins. Since learning to write efficent and secure scripts is must for DevOps guys.
 
-If you're keen to make your career in DevOps then you should learn containerization technolgoies like Docker or Kubernetes, orchastration technologies/tools like Ansible, Chef, Puppet or SaltStack.
+If you're keen to make your career in DevOps then you should learn containerization technolgoies like [Docker](https://www.docker.com/) or Kubernetes, orchastration technologies/tools like [Ansible, Chef, Puppet or SaltStack](https://www.intigua.com/blog/puppet-vs.-chef-vs.-ansible-vs.-saltstack).
 
 Materials:
-- Powershell Microsoft Documentation
-- Shell Scripting
+- [Powershell Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/)
+- [Shell Scripting](https://www.shellscript.sh/)
+- [Docker Classroom](http://training.play-with-docker.com/)
 
-Thank you for making this far! I still have much more to mention here, will try to keep this post updated in the future. 
+Thank you for making this far! I still have much more to mention here, will try to keep this post updated in the future.
