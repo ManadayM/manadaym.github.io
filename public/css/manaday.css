@@ -1,19 +1,20 @@
 /* Basics */
 .center-align {
-    text-align: center;
+  text-align: center;
 }
 
 .left-align {
-    text-align: left;
+  text-align: left;
 }
 
 .right-align {
-    text-align: right;
+  text-align: right;
 }
 
 /* Font */
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    sans-serif;
 }
 
 /*h1, /*h2, h3, h4, h5, h6 {
@@ -22,18 +23,22 @@ html {
 
 .content h1 {
   font-size: 2rem;
-  padding-top:0.5rem;
+  padding-top: 0.5rem;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 1.5em;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
-
 
 /* Override Hyde/Poole */
 @media (min-width: 48em) {
-  .content, .container {
+  .content,
+  .container {
     max-width: none;
   }
 }
@@ -43,22 +48,21 @@ h2, h3, h4, h5, h6 {
     width: 20rem;
     height: 100vh;
     overflow-y: auto;
-    padding-top:4rem;
+    padding-top: 4rem;
   }
 }
 
 .sidebar-about h1 {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-
 
 /* From Bootstrap */
 .list-inline {
-    padding-left: 0;
-    list-style: none;
-    margin-left: -5px;
-    display: flex;
-    justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*.list-inline>li {
@@ -69,28 +73,26 @@ h2, h3, h4, h5, h6 {
 
 /* Adapted from Alexandre Vicenzi https://alexandrevicenzi.com/ */
 .btn-social {
-    display: inline-block;
-    border: 2px solid #fff;
-    border-radius: 100%;
-    text-align: center;
-    width: 2.5em;
-    height: 2.5em;
-    font-size: 2em;
-    line-height: 2.5em;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  text-align: center;
+  width: 2.5em;
+  height: 2.5em;
+  font-size: 2em;
+  line-height: 2.5em;
 }
-
 
 .btn-outline {
-    margin-top: 3vh;
-    border: solid 2px #fff;
-    font-size: 1em;
-    /*transition: all .3s ease-in-out;*/
-    background: #fff;
+  margin-top: 3vh;
+  border: solid 2px #fff;
+  font-size: 1em;
+  /*transition: all .3s ease-in-out;*/
+  background: #fff;
 }
 a.btn-outline {
-    color: inherit;
+  color: inherit;
 }
-
 
 /* Custom */
 
@@ -99,13 +101,13 @@ a.btn-outline {
 }*/
 
 .sidebar a:hover {
-    opacity: 0.7;
-    text-decoration: none;
+  opacity: 0.7;
+  text-decoration: none;
 }
 
 .sidebar a:active {
-    opacity: 0.5;
-    text-decoration: none;
+  opacity: 0.5;
+  text-decoration: none;
 }
 
 #credits {
@@ -113,57 +115,56 @@ a.btn-outline {
 }
 
 #credits a {
-    opacity: 0.75;
-    text-decoration: none;
+  opacity: 0.75;
+  text-decoration: none;
 }
 
 /*a.btn-outline:active,*/
 a.btn-outline:hover {
-    opacity: .75;
-    background: 0;
-    color: #fff;
+  opacity: 0.75;
+  background: 0;
+  color: #fff;
 }
 
 a.btn-outline:active {
-    opacity: 1;
-    background: #fff;
-    color: inherit;
+  opacity: 1;
+  background: #fff;
+  color: inherit;
 }
 
 .blog-nav {
-    margin-top: -2em;
-    margin-bottom: .5em;
-    /*font-size: .75em;*/
-    text-align: center;
+  margin-top: -2em;
+  margin-bottom: 0.5em;
+  /*font-size: .75em;*/
+  text-align: center;
 }
 
 .page-title {
-    padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 .post-subtitle {
-    color: #515151;
-    margin-top: -.5em;
-    margin-bottom: 1em;
+  color: #515151;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
 }
 
 /* this does some magic that preserves the 8.5x11" aspect ratio */
 .pdf-container {
-    height: 0;
-    width: 100%;
-    padding-bottom: 129.41%; /* 11/8.5 = 1.2941 */
-    overflow: hidden;
-    position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 129.41%; /* 11/8.5 = 1.2941 */
+  overflow: hidden;
+  position: relative;
 }
 
 .pdf-container object {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-
 
 /* Projects */
 
@@ -183,7 +184,7 @@ a.btn-outline:active {
 }
 
 .talk {
-  margin-top: .5em;
+  margin-top: 0.5em;
   margin-bottom: 1.5em;
 }
 
@@ -197,34 +198,34 @@ a.btn-outline:active {
 
 /* this does some magic that preserves the 8.5x11" aspect ratio */
 .slide-container {
-    height: 0;
-    width: 100%;
-    padding-bottom: 72%; /* 11/8.5 = 1.2941 */
-    overflow: hidden;
-    position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 72%; /* 11/8.5 = 1.2941 */
+  overflow: hidden;
+  position: relative;
 }
 
 .slide-container object {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* IMAGES & CAPTIONS */
 img {
   /* alt-text styling */
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-style: italic;
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 .caption {
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-style: normal;
 }
 .credit {
-  font-size: .6rem;
+  font-size: 0.6rem;
   font-style: italic;
 }
 
@@ -233,7 +234,8 @@ code {
   color: inherit; /* code color matches text or link/title color */
   white-space: nowrap;
 }
-pre > code, .code > pre {
+pre > code,
+.code > pre {
   white-space: pre; /* only code in <pre> blocks is allowed to wrap */
 }
 pre {
@@ -244,12 +246,13 @@ pre {
 .lineno {
   word-break: keep-all;
   padding: 0;
-  color: rgb(180,180,180);
+  color: rgb(180, 180, 180);
 }
 code > table {
   margin-bottom: 0;
 }
-code table, code td {
+code table,
+code td {
   border: none;
 }
 figure {
@@ -270,7 +273,7 @@ figure {
 
 /* Yellow */
 .theme-base-0a #sidebar-buttons {
-  color: #DCAC69; /*#f4bf75;*/
+  color: #dcac69; /*#f4bf75;*/
 }
 
 /* Green */
