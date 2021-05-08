@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body class="theme-base-0c">
+<body class="theme-base-0c">
 
-    {% include sidebar.html %}
+  {% include sidebar.html %}
 
-    <div class="content container">
-      {{ content }}
-    </div>
+  <div class="content container">
+    {{ content }}
+  </div>
 
-  </body>
+  <script type="module">
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+  </script>
+</body>
+
 </html>

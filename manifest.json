@@ -1,0 +1,24 @@
+{
+  "dir": "ltr",
+  "lang": "en-us",
+  "name": "Manaday Mavani",
+  "short_name": "ManadayM",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "https://manadaym.github.io/",
+  "background_color": "#75b5aa",
+  "theme_color": "#75b5aa",
+  "description": "Manaday Mavani - Software Consultant.",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": "false",
+  "icons": [
+    {
+      "src": "https://manadaym.github.io/public/apple-touch-icon-144-precomposed.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "url": "https://manadaym.github.io/",
+  "screenshots": []
+}
