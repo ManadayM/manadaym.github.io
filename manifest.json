@@ -5,7 +5,7 @@
   "short_name": "ManadayM",
   "scope": "/",
   "display": "standalone",
-  "start_url": ".",
+  "start_url": "/",
   "background_color": "#75b5aa",
   "theme_color": "#75b5aa",
   "description": "Manaday Mavani - Software Consultant.",
