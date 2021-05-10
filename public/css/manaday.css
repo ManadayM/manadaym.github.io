@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://manadaym.github.io/public/fonts/Montserrat-Bold.woff2) format("woff2"),
+    url(https://manadaym.github.io/public/fonts/Montserrat-Bold.woff) format("woff");
+}
+
 /* Basics */
 .center-align {
   text-align: center;
