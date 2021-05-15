@@ -186,25 +186,6 @@ a.btn-outline:active {
     opacity: .5;
 }*/
 
-/* Talks */
-
-.talk-section {
-  margin-top: 0;
-}
-
-.talk {
-  margin-top: 0.5em;
-  margin-bottom: 1.5em;
-}
-
-.talk-subtitle {
-  margin-bottom: 0;
-}
-
-.talk-resource {
-  padding-right: 0.5em;
-}
-
 /* this does some magic that preserves the 8.5x11" aspect ratio */
 .slide-container {
   height: 0;
