@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-![that's me!]({{ site.url }}public/images/profile-pic-2021.jpeg)
+![that's me!]({{ site.url }}/public/images/profile-pic-2021.jpeg)
 
 I'm an IT professional with over 11 years of experience in enterprise-grade software products development. I'm passionate about creating performant, accessible, secure, and privacy-first web platforms and mobile applications.
 

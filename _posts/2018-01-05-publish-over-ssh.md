@@ -27,7 +27,7 @@ At this stage you should be up and running with SSH server having at least one u
 
 Add a central directory where all file transfers (build artifacts) from jenkins machine will be kept. Go to *FreeSSHD > SFTP tab > SFTP home path* and set the field to your desired directory.
 
-![SFTP Home Path]({{ site.url }}public/images/2018-01-05-publish-over-ssh/sftp-home-path.png)
+![SFTP Home Path]({{ site.url }}/public/images/2018-01-05-publish-over-ssh/sftp-home-path.png)
 
 #### On Jenkins Machine
 
@@ -39,7 +39,7 @@ Leave the **Jenkins SSH Key** section empty unless you want to authenticate and 
 
 You can add multiple remote servers under **SSH Servers** section. For now, **Add** your remote machine (here UAT Server) credentials like shown in the screenshot.
 
-![Add SSH Server]({{ site.url }}public/images/2018-01-05-publish-over-ssh/add-ssh-server.png)
+![Add SSH Server]({{ site.url }}/public/images/2018-01-05-publish-over-ssh/add-ssh-server.png)
 
 Check if configuration done so far on the UAT Server and Jenkins are done right or not using **Test Configuration** button. If all steps done right, you will see **Success** message.
 
@@ -59,13 +59,13 @@ Under **Transfer Set**
 * **Remove Prefix** - First part of the file path that should not be created on the remote server.
 * **Remote Directory** - Destination folder where all these stuff should be placed. The directory name mentioned here will be created under your SFTP home path configured on your SSH server.
 
-![Transfer Set]({{ site.url }}public/images/2018-01-05-publish-over-ssh/transfer-set.png)
+![Transfer Set]({{ site.url }}/public/images/2018-01-05-publish-over-ssh/transfer-set.png)
 
 In our case we wanted to take back up of existing stuff on remote server before pushing the new stuff. For this you can use **Exec command** although this command executes after file transfer happens. To make this command execute first, Add new transfer set and move it to top in the Transfers stack.
 
 Exec command is different from normal Windows batch command. [You cannot execute more than one command there](https://issues.jenkins-ci.org/browse/JENKINS-17809).
 
-![For Backup]({{ site.url }}public/images/2018-01-05-publish-over-ssh/exec-command.png)
+![For Backup]({{ site.url }}/public/images/2018-01-05-publish-over-ssh/exec-command.png)
 
 The command highlighted here will copy/backup current website copy to *D:\Manaday\yyyymmdd* folder.
 

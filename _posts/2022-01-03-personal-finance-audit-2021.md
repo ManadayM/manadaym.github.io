@@ -47,7 +47,7 @@ I don’t intend to stop working by the age of 50 (2036). However, planning and 
 
 The main goal is to reach the desired equity allocation by the end of 2022 and reduce the mutual fund counts gradually. I have already stopped my SIPs in couple of funds but haven’t redeemed my units.
 
-![Retirement portfolio allocation.]({{ site.url }}public/images/2022-01-03-personal-finance-audit-2021/retirement_portfolio_allocation.png)
+![Retirement portfolio allocation.]({{ site.url }}/public/images/2022-01-03-personal-finance-audit-2021/retirement_portfolio_allocation.png)
 
 Retirement portfolio allocation.
 
@@ -87,7 +87,7 @@ The accured corpus in the Employee Provident Fund is tagged as the debt portion 
 
 ## Daughter’s Higher Education
 
-![Daughter’s higher education portfolio.]({{ site.url }}public/images/2022-01-03-personal-finance-audit-2021/daughters_higher_education.png)
+![Daughter’s higher education portfolio.]({{ site.url }}/public/images/2022-01-03-personal-finance-audit-2021/daughters_higher_education.png)
 
 Daughter’s higher education portfolio.
 
@@ -99,7 +99,7 @@ The PPF account will mature by Apr 2027 and I don’t plan to extend it. I will 
 
 ## Son’s Higher Education
 
-![Son’s higher education portfolio.]({{ site.url }}public/images/2022-01-03-personal-finance-audit-2021/sons_higher_education.png)
+![Son’s higher education portfolio.]({{ site.url }}/public/images/2022-01-03-personal-finance-audit-2021/sons_higher_education.png)
 
 I had no investments for this goal. We (I and my wife) accumulated all amount for my son in a savings bank account. In Sep 2021, I moved that corpus into a liquid fund and created an STP against it for 12 months.
 
@@ -107,7 +107,7 @@ I have also started monthly investments in the NIFTY 50 ETFs since this goal is 
 
 ## Home Goal
 
-![Home Goal.]({{ site.url }}public/images/2022-01-03-personal-finance-audit-2021/Home_Goal.png)
+![Home Goal.]({{ site.url }}/public/images/2022-01-03-personal-finance-audit-2021/Home_Goal.png)
 
 This is very unclear goal, I have. I am not keen to buy a residential property. I strongly feel buying a residential property (flat) is a dead investment.
 
