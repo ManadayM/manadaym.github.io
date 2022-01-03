@@ -1,6 +1,9 @@
-# Personal Finance Audit 2021
-
+---
+layout: post
+title: Personal Finance Audit 2021
+---
 The year 2021 will remain very special for me. I took some hard decisions to rethink and reshape my career and personal finance.
+<!--more-->
 
 On the Personal Finance front, I was concerned with my investment style as it completely lacked the ideal asset allocation. I used to park most of my savings in my savings bank account. This simply means, I was eroding my corpus every year due to inflation.
 
