@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Image Lazy Loading
-category: ""
 ---
 
 Images on a web page impact several things like Initial Page Load Time, First Input Delay, mobile data consumption, system resources to download and decode the images, device battery, etc. So, what can we do to improve at all these aspects? Avoid using images at all? NO. There comes the image lazy loading.
