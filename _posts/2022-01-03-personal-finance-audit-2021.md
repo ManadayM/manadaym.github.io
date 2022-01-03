@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Personal Finance Audit 2021
-category: personal finance
 ---
 
 The year 2021 will remain very special for me. I took some hard decisions to rethink and reshape my career and personal finance.
