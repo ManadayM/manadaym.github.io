@@ -1,5 +1,3 @@
-# SQL Correlated Subqueries
-
 This post documents correlated subqueries in SQL.
 
 <!--more-->
