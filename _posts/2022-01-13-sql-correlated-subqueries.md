@@ -6,7 +6,7 @@ Lately, I'm refining my database skills through one of the Udemy course on SQL a
 
 In simple terms, a correlated subquery is a query that depends for its value on the outer query. 
 
-We can visualize correlated queries as two-level nested $for$ loops. The following code snippet mimics a car assembly where each car frame (outer loop) is passed through a set of assembly operations (inner loop). Here, the inner loop `assembly` is dependent on a value from the outer loop `frames`.
+We can visualize correlated queries as two-level nested ```for``` loops. The following code snippet mimics a car assembly where each car frame (outer loop) is passed through a set of assembly operations (inner loop). Here, the inner loop ```assembly``` is dependent on a value from the outer loop ```frames```.
 
 ```javascript
 let frames = ['car frame 1', 'car frame 2', 'car frame 3'];
@@ -34,12 +34,10 @@ for (let i = 0; i < frames.length; i++) {
 
 ## Correlated Subqueries in SQL
 
-Let's say, we have a `products` table in our database. We want to find the most expensive product for each product category. The highlighted rows will be part of our query result.
+Let's say, we have a ```products``` table in our database. We want to find the most expensive product for each product category. The highlighted rows will be part of our query result.
 
-<aside>
 💡 The SQL dump to create this table and dummy data can be accessed from this [gist](https://gist.github.com/ManadayM/715980c2d32987608b8f8df0c2cd9299). You can play with it on [pg-sql.com](https://pg-sql.com/).
 
-</aside>
 
 | id | name | category | price |
 | --- | --- | --- | --- |
