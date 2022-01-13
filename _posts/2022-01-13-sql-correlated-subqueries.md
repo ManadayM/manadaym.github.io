@@ -1,12 +1,14 @@
-This post documents correlated subqueries in SQL.
+A post on correlated subqueries in SQL.
 
 <!--more-->
 
-Lately, I'm refining my database skills through one of the Udemy course on SQL and PostgreSQL by Stepehn Grider. Yesterday, I came across the topic of Correlated Subqueries. I found it a bit difficult to understand at first due to my limited exposure to the database side. This blog post is an attempt to document my understanding on the same.
+I am refining my database skills these days. Yesterday, I came across the topic of SQL Correlated Subqueries. This blog post is an attempt to document my understanding of the same.
 
-In simple terms, a correlated subquery is a query that depends for its value on the outer query. 
+In simple terms, a correlated subquery is a subquery that uses values from the outer query. Let's understand it. 😊
 
-We can visualize correlated queries as two-level nested ```for``` loops. The following code snippet mimics a car assembly where each car frame (outer loop) is passed through a set of assembly operations (inner loop). Here, the inner loop ```assembly``` is dependent on a value from the outer loop ```frames```.
+## Analogy
+
+In the general programming context, we can visualize correlated subqueries as two-level nested ```for``` loops. The following code snippet mimics a car assembly where each car frame (outer loop) is passed through a set of assembly operations (inner loop). Here, the inner loop ```assembly``` is dependent on a value from the outer loop ```frames```.
 
 ```javascript
 let frames = ['car frame 1', 'car frame 2', 'car frame 3'];
@@ -22,17 +24,15 @@ let assembly = [
 ];
 
 for (let i = 0; i < frames.length; i++) {
-
 	for (let j = 0; j < assembly.length; j++) {
-	
 		console.log(`--> ${assembly[j]} for '${frames[i]}'.`);
-
-	} // End of inner for loop
-
-}// End of outer for loop
+	}
+	// End of inner for loop
+}
+// End of outer for loop
 ```
 
-## Correlated Subqueries in SQL
+## Correlated Subquery in the SQL context
 
 Let's say, we have a ```products``` table in our database. We want to find the most expensive product for each product category. The highlighted rows will be part of our query result.
 
@@ -50,7 +50,7 @@ Let's say, we have a ```products``` table in our database. We want to find the m
 | 7 | SSD | electronics | 500 |
 | 8 | Webcam | electronics | 425 |
 
-It is very important that we understand the SQL query execution order.
+We must understand the SQL query execution order.
 
 ![Query Execution Order]({{ site.url }}/public/images/2022-01-13-sql-correlated-subqueries/query-execution-order.png)
 
@@ -90,13 +90,13 @@ Let's dissect this query by Query Execution Order
 
 The crux of this section is that each row from the outer query will be matched against all rows from the inner query.
 
-I know this not our end goal. I also hear you, what if there would be another product from a different category but having the same price? Yes, that would be part of this query's result.
+I know this is not our end goal. I also hear you, what if there would be another product from a different category but having the same price? Yes, that would be part of this query's result.
 
-The sole intention for this section was to explain the query execution order in the context of correlated subquery where inner query is dependent on the outer query.
+The sole intention for this section was to explain the query execution order in the context of correlated subquery where the inner query is dependent on the outer query.
 
 ### Correlated subquery
 
-We want to achieve dynamism in our above query so that it returns most expensive product of each product category instead of one fixed category. Let's tweak our query as follows.
+We want to achieve dynamism in our above query so that it returns the most expensive product of each product category instead of one fixed category. Let's tweak our query as follows.
 
 ```sql
 SELECT name, category, price  
@@ -112,13 +112,13 @@ We aliased the outer query as `main` and the inner query as `sub`. Now, each row
 
 ### The alternate approaches
 
-I found following 2 alternatives on the Udemy forum.
+I found the following 2 alternatives on the Udemy forum.
 
 ```sql
 -- Approach - 2.
 -- This approach will return only one record per category in any circumstances.
 -- I observed that this approach will fail when there are two products
--- having same price in a same product category.
+-- having the same price in the same product category.
 SELECT DISTINCT ON(category) name, category, price 
 FROM products 
 ORDER BY category, price DESC;
@@ -136,12 +136,11 @@ WHERE (price, category) IN (
 
 ## Conclusion
 
-It is evident that correlated subquery is one of the best way to degrade your database server's performance. 😂.
+A correlated subquery can degrade the database server's performance. I learned that it is better to avoid this approach on large tables. One must set proper indexes on the table if the usage of a correlated subquery is inevitable.
 
-I'm not an expert with SQL and databases. I'm sure there will be better ways to handle such scenarios. I will explore and document them in future on this space. 😊
+I am not an expert with SQL and databases. I am sure there will be better ways to handle such scenarios. I will explore and document them in the future in this space.
 
 ## References
 
-[Correlated subqueries](https://www.ibm.com/docs/en/informix-servers/12.10?topic=clauses-correlated-subqueries)
-
-[Co-related Sub-queries](https://medium.com/analytics-vidhya/co-related-sub-queries-7d2c872d2341)
+* [Correlated subqueries](https://www.ibm.com/docs/en/informix-servers/12.10?topic=clauses-correlated-subqueries)
+* [Co-related Sub-queries](https://medium.com/analytics-vidhya/co-related-sub-queries-7d2c872d2341)
