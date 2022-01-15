@@ -1,3 +1,7 @@
+---
+layout: post
+title: SQL Correlated Subqueries
+---
 A post on correlated subqueries in SQL.
 
 <!--more-->
