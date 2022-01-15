@@ -2,7 +2,9 @@
 layout: post
 title: Encryption & Public Keys
 ---
+Quick notes on encryption and decryption basics.
 
+<!--more-->
 ## Encryption
 
 Encryption is the process of scrambling or changing a message to hide the original text.
