@@ -23,7 +23,7 @@ This approach involves two mathematically related keys a public key and a privat
 
 ## Other References
 
-[Encryption and public keys | Internet 101 | Computer Science | Khan Academy](https://www.youtube.com/watch?v=6-JjHa-qLPk)
+[Encryption and public keys - Khan Academy](https://www.youtube.com/watch?v=6-JjHa-qLPk)
 
 [Encryption 101 - Introduction to Encryption and Key Management](https://www.youtube.com/watch?v=Qese6SDh3LU)
 
