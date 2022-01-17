@@ -32,7 +32,7 @@ A Hash Function is cryptographically secure if it satisfies the following 3 secu
 
 - **Collision-free** - Two different inputs can never produce same hash.
 - **Diffusion, or Avalanche Effect** - A change in a single bit of the original input should result in change of half the bits of its hash.
-- **Puzzle-friendly** - Given X and Y, find out k such that Y = H ( X || k) - used to solve the mining puzzle in Bitcoin proof-of-work.
+- **Puzzle-friendly** - Given X and Y, find out k such that Y = H ( X \|\| k) - used to solve the mining puzzle in Bitcoin proof-of-work.
 
 ## References:
 
