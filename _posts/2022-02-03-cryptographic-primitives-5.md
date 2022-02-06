@@ -38,7 +38,7 @@ Topics covered in this lecture.
 - Select ``e`` such that ``e`` is relatively prime or co-prime to ``⏀(n) = 160`` and less than ``⏀(n)``. Let ``e = 7``.
 - Determine ``d`` such that ``d * e = 1 mod 160`` and ``d < 160``; Can determine ``d = 23`` since ``23 * 7 = 161 = 1 * 160 + 1``.
 
-In the above example, ``e`` and ``n`` forms the private key and public key.
+In the above example, ``{ e, n }`` forms the public key and ``{ d, n }`` forms the private key.
 
 ### Example
 ![Screenshot 1]({{ site.url }}/public/images/2022-02-03-cryptographic-primitives-5/screen-1.png)
@@ -54,3 +54,4 @@ In the above example, ``e`` and ``n`` forms the private key and public key.
 ## References
 
 - [YouTube Video on Euler’s Totient Function by Abhishek Sharma (Hindi)](https://youtu.be/ZBkpYKGPHUs)
+- [YouTube Video on RSA Algorithm by Abhishek Sharma (Hindi)](https://youtu.be/rlJTMUBXhKE)
