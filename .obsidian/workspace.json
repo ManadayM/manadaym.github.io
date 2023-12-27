@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "2e7832a20a6eaa8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a02549b888c3228c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "657005e48e54dea3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/open-source-software-(oss).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa9d05052a0eb02c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/open-source-software-(oss).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "79e9d53468da4cd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "97c0bbbabb5fa2a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2023ae4a43e7c9f0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "09851dced46bb73a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "809cdc5ec1658e33",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 429.5
+  },
+  "right": {
+    "id": "079e6266523f977e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1cc388d59f29ec79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c2c8ef1b908695c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/content/blog/open-source-software-(oss).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9e0d964f1f899cf1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/content/blog/open-source-software-(oss).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b10665e33bc2c64",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ff6f3e702eb888ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/content/blog/open-source-software-(oss).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "2023ae4a43e7c9f0",
+  "lastOpenFiles": [
+    "src/content/blog/open-source-software-(oss).md",
+    "node_modules/vfile-message/license",
+    "node_modules/vitefu/src",
+    "node_modules/vitefu/LICENSE",
+    "node_modules/volar-service-typescript/out/features/completions",
+    "node_modules/volar-service-typescript/out/features",
+    "node_modules/vscode-uri/lib/umd",
+    "node_modules/vscode-css-languageservice/lib/esm/utils",
+    "node_modules/vscode-css-languageservice/lib/esm",
+    "node_modules/vscode-nls/lib/common",
+    "node_modules/vscode-nls/lib",
+    "manadaym.github.io/AstroPaper-lighthouse-score.svg",
+    "manadaym.github.io/src/content/blog/git-aliases-i-use.md",
+    "assets/templates/random-pic.md",
+    "manadaym.github.io/node_modules/css-select/README.md",
+    "manadaym.github.io/node_modules/micromark-extension-gfm-strikethrough/readme.md",
+    "manadaym.github.io/node_modules/import-meta-resolve/readme.md",
+    "manadaym.github.io/node_modules/regexparam/readme.md",
+    "manadaym.github.io/node_modules/probe-image-size/README.md",
+    "manadaym.github.io/node_modules/pify/readme.md",
+    "manadaym.github.io/node_modules/scheduler/README.md",
+    "manadaym.github.io/node_modules/ts-node/node_modules/diff/release-notes.md",
+    "manadaym.github.io/node_modules/ts-node/node_modules/diff/README.md",
+    "manadaym.github.io/node_modules/ts-node/node_modules/diff/CONTRIBUTING.md",
+    "manadaym.github.io/node_modules/ts-node/node_modules/arg/README.md",
+    "manadaym.github.io/node_modules/ts-node/node_modules/arg/LICENSE.md",
+    "manadaym.github.io/node_modules/ts-node/dist-raw/README.md",
+    "manadaym.github.io/node_modules/ts-node/dist-raw/NODE-LICENSE.md",
+    "manadaym.github.io/node_modules/ts-node/README.md",
+    "manadaym.github.io/node_modules/csso/node_modules/mdn-data/css/readme.md",
+    "manadaym.github.io/node_modules/csso/node_modules/mdn-data/README.md",
+    "manadaym.github.io/node_modules/csso/node_modules/mdn-data/CHANGELOG.md",
+    "manadaym.github.io/node_modules/csso/node_modules/css-tree/README.md",
+    "manadaym.github.io/node_modules/csso/README.md",
+    "manadaym.github.io/node_modules/eslint-visitor-keys/README.md",
+    "manadaym.github.io/node_modules/js-yaml/README.md",
+    "manadaym.github.io/node_modules/js-yaml/CHANGELOG.md",
+    "manadaym.github.io/node_modules/undici/docs/assets/lifecycle-diagram.png",
+    "manadaym.github.io/node_modules/commitizen/logo/commitizen-logo-mono.svg",
+    "manadaym.github.io/node_modules/commitizen/logo/commitizen-logo-color.svg",
+    "manadaym.github.io/dist/favicon.svg",
+    "manadaym.github.io/dist/astropaper-og.jpg",
+    "manadaym.github.io/dist/assets/logo.svg",
+    "manadaym.github.io/dist/assets/logo.png",
+    "manadaym.github.io/dist/assets/forrest-gump-quote@900w.jpeg",
+    "manadaym.github.io/dist/assets/forrest-gump-quote.webp.jpg"
+  ]
+}

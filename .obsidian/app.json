@@ -1,0 +1,9 @@
+{
+  "userIgnoreFilters": [
+    "node_modules/",
+    "obsidian-templates/",
+    "public/"
+  ],
+  "attachmentFolderPath": "src/assets/images",
+  "alwaysUpdateLinks": true
+}
