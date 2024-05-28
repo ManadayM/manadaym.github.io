@@ -1,8 +1,8 @@
 ---
-title: AWS IAM Policy
-description: My notes on AWS IAM Policy.
-pubDatetime: 2022-09-15T17:30:00
-postSlug: aws-iam-policy
+title: AWS CLI
+description: My notes on AWS CLI.
+pubDatetime: 2022-09-15T17:37:00
+postSlug: aws-cli
 featured: false
 draft: false
 tags:
@@ -11,55 +11,65 @@ tags:
 
 ![tp.web.random_picture](https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlLHdhdGVyLG1vdW50YWlufHx8fHx8MTY2MTU3NjExNA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=900)
 
-My notes on AWS IAM Policy.
+My notes on AWS CLI.
 
 ## Table of contents
 
-## IAM Policy Overview
+## What is AWS CLI?
 
-- A policy is an object in AWS that, when associated with an identity or resource, defines its permissions.
-- IAM comes with managed policies.
-- We can create an **[inline policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_managed-vs-inline.html#inline-policies)** that we can attach directly to a single user, group, or role.
-- We can also create custom policies through a Visual editor or JSON editor.
+- A tool that enables to interact with AWS Services using commands in your command-line shell.
+- Direct access to the public APIs of AWS Services.
+- You can develop scripts to manage your resources.
+- It's open source https://github.com/aws/aws-cli.
+- **The latest version is AWS CLI v2.**
+- Alternatively, you can also use the [AWS CloudShell](https://docs.aws.amazon.com/cloudshell/latest/userguide/welcome.html) that is a browser-based, pre-authenticated shell. It can be launched directly from the AWS Management Console. This service is not available in all AWS regions.
 
-## IAM Policies Structure
+## Check the AWS CLI version
 
-- IAM Policy is a JSON document that is made up of [elements](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.html).
-- An IAM Policy document consists of:
-  - **Version**: Policy language version, always use **`2012-10-17`**.
-  - **Id**: Policy identifier (optional).
-  - **Statement**: One or more individual statements (required).
-- **Statement** consists:
-  - **Sid**: Statement identifier (optional).
-  - **Effect**: Whether the statement allows or denies access (`Allow` / `Deny`)
-  - **Principal**: account/user/role to which this policy is applied to.
-  - **Action**: List of actions this policy allows or denies based on the Effect.
-  - **Resource**: List of resources to which the actions applied to.
-  - **Condition**: conditions for when this policy is in effect (optional).
+```shell
+$ aws --version
+aws-cli/2.7.32 Python/3.9.11 Darwin/19.6.0 exe/x86_64 prompt/off
+```
 
-> [!INFO] Latest Policy Version
-> "Version": "2012-10-17"
+## AWS CLI Configuration & Named Profiles
 
-```json
-{
-  "Version": "2012-10-17",
-  "Id": "S3-Account-Permissions",
-  "Statement": [
-    {
-      "Sid": "1",
-      "Effect": "Allow",
-      "Principal": {
-        "AWS": ["arn:aws:iam::12345678912:root"]
-      },
-      "Action": ["s3:GetObject", "s3:PutObject"],
-      "Resource": ["arn:aws:s3:::myBucket/*"]
-    }
-  ]
-}
+- The default location for the AWS CLI configuration is the `.aws` directory inside your operating system's Home directory. For Windows OS it is `%UserProfile%` and for Unix-based systems, it is `$HOME` or `~` (tilde).
+- By default, the AWS CLI uses the `default` profile.
+- We can create and use additional named profiles by specifying the `--profile` option and assigning a name. Check the following example where it creates a new profile named `admin`.
+
+```shell
+$ aws configure --profile admin
+AWS Access Key ID [None]: AKIAI44QH8DHBEXAMPLE
+AWS Secret Access Key [None]: je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
+Default region name [None]: us-east-1
+Default output format [None]: text
+```
+
+Check this [Named profiles for AWS CLI guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html) for more details.
+
+## Using named profile
+
+- Use `--profile <profile-name>` option to use a named profile.
+- Set `AWS_PROFILE` environment variable if you intend to execute multiple commands with the same named profile.
+
+```shell
+$ export AWS_PROFILE=admin
+```
+
+## Change output format
+
+- Use `--output <output-format>` option to override the default format option set.
+- Supported format options are `json`, `yaml`, `yaml-stream`, `text`, and `table`.
+- Set `AWS_DEFAULT_OUTPUT` environment variable if you intend to execute multiple commands with the same output format.
+
+```shell
+$ export AWS_DEFAULT_OUTPUT=json
 ```
 
 ## References
 
-- https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#access_policies-json
-- https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html
-- https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.html
+- Getting Started Guide - https://aws.amazon.com/cli/
+- AWS CLI Installation Guide - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+- AWS CLI Setup Guide - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html
+- AWS CLI Named Profiles - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
+- List of AWS CLI Envrionment Variables - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
