@@ -1,10 +1,10 @@
 ---
 title: Use multiple Github accounts from your machine
 description: Guide to operate multiple Github accounts on your machine.
-pubDatetime: 2024-05-29T00:20:48+05:30
+pubDatetime: 2024-05-29T00:20:48
 postSlug: how-to-use-multiple-github-accounts-from-your-machine
 featured: false
-draft: true
+draft: false
 tags:
   - Git
   - Productivity
