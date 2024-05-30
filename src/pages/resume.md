@@ -4,9 +4,9 @@ title: "Resume"
 ---
 
 <div class="pdf-container">
-  <object data="./ResumeManadayMavani.pdf" type="application/pdf">
+  <object data="/ResumeManadayMavani.pdf" type="application/pdf">
     <p>
-      It appears you don't have a PDF plugin to view this document. No worries.. you can <a href="./ResumeManadayMavani.pdf">click here to download the resume in PDF format.</a>
+      It appears you don't have a PDF plugin to view this document. No worries.. you can <a href="/ResumeManadayMavani.pdf">click here to download the resume in PDF format.</a>
     </p>
   </object>
 </div>
